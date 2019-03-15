@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login h1 {
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/52/b2/f0/52b2f017cb70aead900d06a78e728d5e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login input {
+    width: 250px;
+    margin-top: 10px;
+    height: 25px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;
+    ;
+}
+
+.login input:focus {
+    outline: 0;
+}
+
+.back {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.reg {
+    position: relative;
+    left: 150px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgb(154, 101, 204);
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
